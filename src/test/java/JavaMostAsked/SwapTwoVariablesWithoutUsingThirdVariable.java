@@ -7,6 +7,7 @@ public class SwapTwoVariablesWithoutUsingThirdVariable {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the first number");
 		int firstNum = scanner.nextInt();
+		int a = 10;
 		System.out.println("Enter the second number");
 		int secNum = scanner.nextInt();
 		scanner.close();// for the best practice
