@@ -9,7 +9,7 @@ public class SwapTwoVariablesWithoutUsingThirdVariable {
 		int firstNum = scanner.nextInt();
 		System.out.println("Enter the second number");
 		int secNum = scanner.nextInt();
-		scanner.close();
+		scanner.close();// for best practice
 		System.out.println("first number is:"+ firstNum);
 		System.out.println("second number is:"+ secNum);
 		
